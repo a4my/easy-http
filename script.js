@@ -51,10 +51,10 @@ http.put('https://jsonplaceholder.typicode.com/posts/5', data, function(err, pos
 // Delete post
 
 http.get('https://jsonplaceholder.typicode.com/posts',
-function(err, posts) {
+function(err, response) {
   if(err) {
     console.log(err)
   } else {
-    console.log(posts)
+    console.log(response)
   }
 })
